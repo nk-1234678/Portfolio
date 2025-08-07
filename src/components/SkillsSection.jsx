@@ -14,20 +14,23 @@ import {
 
 const skills = [
   { name: "HTML", icon: "https://cdn3d.iconscout.com/3d/free/thumb/free-css-9294881-7578024.png", level: 95, category: "frontend"  },
-  { name: "JavaScript", icon: "https://img.icons8.com/?size=100&id=Nkym0Ujb8VGI&format=png&color=000000", level: 90, category: "frontend" },
+  { name: "JavaScript", icon: "https://img.icons8.com/?size=100&id=Nkym0Ujb8VGI&format=png&color=000000", level: 90, category: "backend" },
   { name: "React", icon: "https://cdn3d.iconscout.com/3d/free/thumb/free-react-9294867-7578010.png?f=webp", level: 90, category: "frontend" },
   { name: "CSS", icon: "https://cdn3d.iconscout.com/3d/free/thumb/free-css-9294881-7578024.png", level: 85, category: "frontend" },
   { name: "Tailwind CSS", icon: "https://cdn3d.iconscout.com/3d/free/thumb/free-tailwind-css-11492968-9325303.png", level: 90, category: "frontend" },
-  { name: "Next.js", icon: "🚀", level: 80, category: "frontend" },
+  { name: "Adobe Photoshop", icon: "🚀", level: 80, category: "tools" },
   { name: "Node.js", icon: "https://cdn3d.iconscout.com/3d/free/thumb/free-nodejs-9294859-7578002.png?f=webp", level: 80, category: "backend" },
   { name: "Express", icon: "https://cdn.buttercms.com/8am8PZECScDawQa33Lv2", level: 75, category: "backend" },
   { name: "MongoDB", icon: "https://w7.pngwing.com/pngs/169/258/png-transparent-mongodb-compass-macos-bigsur-icon-thumbnail.png", level: 70, category: "backend" },
   { name: "C", icon: "https://png.pngtree.com/png-vector/20250705/ourlarge/pngtree-d-letter-c-inside-modern-blue-hexagon-with-shadow-on-transparent-png-image_16606943.webp", level: 65, category: "backend" },
   { name: "C++", icon: "https://cdn3d.iconscout.com/3d/free/thumb/free-s-9294872-7578015.png", level: 60, category: "backend" },
   { name: "Git/GitHub", icon: "https://cdn3d.iconscout.com/3d/free/thumb/free-github-2950150-2447911.png", level: 90, category: "tools" },
-  { name: "Python", icon: "https://w7.pngwing.com/pngs/252/43/png-transparent-python-programming-language-high-level-interpreted-python-logo-web-applications-3d-icon.png", level: 70, category: "tools" },
+  { name: "Python", icon: "https://w7.pngwing.com/pngs/252/43/png-transparent-python-programming-language-high-level-interpreted-python-logo-web-applications-3d-icon.png", level: 70, category: "Backend" },
   { name: "Figma", icon: "https://w7.pngwing.com/pngs/468/813/png-transparent-figma-macos-bigsur-icon.png", level: 85, category: "tools" },
   { name: "VS Code", icon: "https://w7.pngwing.com/pngs/210/953/png-transparent-microsoft-visual-studio-code-alt-macos-bigsur-icon-thumbnail.png", level: 95, category: "tools" },
+  { name: "React Native", icon: "https://w7.pngwing.com/pngs/210/953/png-transparent-microsoft-visual-studio-code-alt-macos-bigsur-icon-thumbnail.png", level: 95, category: "frontend" },
+  { name: "NativeWind", icon: "https://w7.pngwing.com/pngs/210/953/png-transparent-microsoft-visual-studio-code-alt-macos-bigsur-icon-thumbnail.png", level: 95, category: "frontend" },
+  { name: "MySql", icon: "https://w7.pngwing.com/pngs/210/953/png-transparent-microsoft-visual-studio-code-alt-macos-bigsur-icon-thumbnail.png", level: 95, category: "backend" },
 ];
 
 

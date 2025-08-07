@@ -4,17 +4,17 @@ import { motion } from "framer-motion";
 const projects = [
   {
     id: 1,
-    title: "SaaS Landing Page",
+    title: "ArtisanConnect",
     description:
       "ArtisanConnect is a platform that empowers local artisans by connecting them with tourists, offering authentic cultural experiences and promoting handmade products. It serves as a digital bridge for tourists seeking immersive journeys and for artisans looking to showcase their skills and earn livelihoods.",
     image: "/projects/project1.png",
     tags: ["React", "TailwindCSS", "Supabase"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/nk-1234678/Startup_Website",
   },
   {
     id: 2,
-    title: "Orbit Analytics Dashboard",
+    title: "Deep pexel",
     description:
       "DeepTruth is an advanced AI-based platform designed to detect and combat deepfake media, GAN-generated content, and misinformation. Built using FastAPI or Flask, it empowers users, educators, journalists, and organizations to verify digital content and ensure authenticity across various formats.",
     image: "/projects/project2.png",
@@ -24,13 +24,13 @@ const projects = [
   },
   {
     id: 3,
-    title: "E-commerce Platform",
+    title: "Notes Website",
     description:
       "SmartNotes is a modern, full-stack MERN-based notes dashboard built for seamless personal knowledge management. Designed for productivity and ease of use, it offers a rich note-taking experience with powerful organizational and analytical features.",
     image: "/projects/project3.png",
     tags: ["React", "Node.js", "Stripe"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/nk-1234678/PersonalNotes_Website",
   },
 ];
 
@@ -176,7 +176,7 @@ export const ProjectsSection = () => {
           <motion.a
             className="cosmic-button w-fit flex items-center mx-auto gap-2"
             target="_blank"
-            href="https://github.com/machadop1407"
+            href="https://github.com/nk-1234678"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             transition={{ type: "spring", stiffness: 300 }}

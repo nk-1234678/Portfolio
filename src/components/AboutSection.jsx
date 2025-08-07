@@ -1,19 +1,20 @@
 import { Briefcase, Code, User, Github, Linkedin, Instagram, Mail, Phone} from "lucide-react";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 export const AboutSection = () => {
   const socialLinks = [
     {
       icon: <Github size={20} />,
-      href: 'https://github.com/yourusername',
+      href: 'https://github.com/nk-1234678',
     },
     {
       icon: <Linkedin size={20} />,
-      href: 'https://linkedin.com/in/yourusername',
+      href: 'https://www.linkedin.com/in/neelam-kumari-88938b331/',
     },
     {
       icon: <Instagram size={20} />,
-      href: 'https://instagram.com/yourusername',
+      href: 'https://instagram.com/_nilu_thakur008',
     },
      {
       icon: <Mail size={20} />,
@@ -60,7 +61,8 @@ export const AboutSection = () => {
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-start">
               <a href="#contact" className="cosmic-button">Get In Touch</a>
               <a
-                href=""
+                href="/projects/Resume.pdf"
+                download
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
               >
                 Download CV
